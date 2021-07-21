@@ -82,7 +82,11 @@ h3{font-size: 2.4rem;}
 	font-family: var(--F_P);
 	font-size: 2.2rem;
 }
-
+@media (max-width: 768px){
+	.footer__texto{
+		font-size: 1.5rem;
+	}
+}
 /* Navegacion */
 .navegacion{
 	background-color: var(--primarioOscuro);
