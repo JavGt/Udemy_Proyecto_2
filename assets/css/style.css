@@ -39,6 +39,12 @@ img{
 	max-width: 120rem;
 	margin: 0 auto;
 }
+@media (max-width: 768px ){
+	.contenedor{
+		max-width: 120rem;
+		margin: 0 2rem;
+	}
+}
 
 h1,h2,h3{
 	text-align: center;
@@ -235,7 +241,7 @@ h3{font-size: 2.4rem;}
 		width: 30rem;
 	}
 	.formulario__campo:nth-child(2){
-		width: 23rem;
+		width: 20rem;
 	}
 }
 .formulario__submit{
